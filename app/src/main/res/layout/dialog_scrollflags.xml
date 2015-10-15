@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scrollflags_checkbox_scroll"
+        android:id="@+id/cbScroll" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scrollflags_checkbox_exitUntilCollapsed"
+        android:id="@+id/cbExitUntilCollapsed" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scrollflags_checkbox_enterAlways"
+        android:id="@+id/cbEnterAlways" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scrollflags_checkbox_enterAlwaysCollapsed"
+        android:id="@+id/cbEnterAlwaysCollapsed" />
+
+</LinearLayout>

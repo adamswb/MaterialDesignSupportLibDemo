@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.materialdesignsupportlib" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.NavViewActivity"
+            android:label="@string/title_activity_navview" />
+        <activity
+            android:name=".ui.activity.FloatingLabelActivity"
+            android:label="@string/title_activity_floatlab" />
+        <activity
+            android:name=".ui.activity.FABActivity"
+            android:label="@string/title_activity_fab" />
+        <activity
+            android:name=".ui.activity.SnackBarActivity"
+            android:label="@string/title_activity_snackbar" />
+        <activity
+            android:name=".ui.activity.TabsActivity"
+            android:label="@string/title_activity_tabs" />
+        <activity
+            android:name=".ui.activity.CoordLayFABActivity"
+            android:label="@string/title_activity_cl_fab" />
+        <activity
+            android:name=".ui.activity.CoordLayToolbarTabActivity"
+            android:label="@string/title_activity_cl_toolbar_tab"
+            android:parentActivityName=".ui.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.CoordLayCollToolbarFABActivity"
+            android:label="@string/title_activity_cl_coll_toolbar_fab"
+            android:parentActivityName=".ui.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.CoordLayCollToolbarParFABActivity"
+            android:label="@string/title_activity_cl_coll_toolbarpar_fab"
+            android:parentActivityName=".ui.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

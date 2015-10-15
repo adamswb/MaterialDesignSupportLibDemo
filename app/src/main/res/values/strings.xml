@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Material Design Support Lib Demo</string>
+
+    <string name="title_activity_navview">Navigation View</string>
+    <string name="title_activity_floatlab">Floating labels for editing text</string>
+    <string name="title_activity_fab">Floating Action Button (FAB)</string>
+    <string name="title_activity_snackbar">Snackbar</string>
+    <string name="title_activity_tabs">Tabs</string>
+    <string name="title_activity_cl_fab">Coordinator Layout and FAB</string>
+    <string name="title_activity_cl_toolbar_tab">Coordinator Layout, Toolbar and Tabs</string>
+    <string name="title_activity_cl_coll_toolbar_fab">Coordinator Layout, Collapsing Toolbar and FAB</string>
+    <string name="title_activity_cl_coll_toolbarpar_fab">Coordinator Layout, Collapsing Toolbar Parallax and FAB</string>
+
+    <string name="drawer_title">My Business</string>
+    <string name="navigation_item_1">Calendar</string>
+    <string name="navigation_item_2">Music</string>
+    <string name="navigation_item_3">Chat</string>
+    <string name="navigation_item_4">No icon</string>
+    <string name="navigation_item_5">Contact</string>
+    <string name="navigation_item_5_sub_1">Address</string>
+    <string name="navigation_item_5_sub_2">Email</string>
+
+    <string name="menu_item_1">Done</string>
+    <string name="menu_item_2">Cancel</string>
+    <string name="menu_scrollflags">Scroll Flags</string>
+
+    <string name="adapter_item_text">Item #</string>
+
+    <string name="button_ok">OK</string>
+
+    <string name="fab_fab_toast_text">You clicked on the FAB</string>
+    <string name="fab_minifab_toast_text">You clicked on the mini FAB</string>
+
+    <string name="floatlab_email_wo_label">Email - without floating label</string>
+    <string name="floatlab_email_label">Email - with floating label</string>
+    <string name="floatlab_email_hint">yourname@example.com</string>
+
+    <string name="snackbar_button_simple_text">Show Simple Snackbar</string>
+    <string name="snackbar_snackbar_simple_text">Simple Snackbar</string>
+    <string name="snackbar_button_action_text">Show Snackbar with Action</string>
+    <string name="snackbar_snackbar_action_text">Snackbar with Action</string>
+    <string name="snackbar_snackbar_action_action_text">Action</string>
+    <string name="snackbar_snackbar_action_toast_text">You clicked on the Action!</string>
+
+
+    <string name="scrollflags_title">layout_scrollFlags:</string>
+    <string name="scrollflags_checkbox_scroll">scroll</string>
+    <string name="scrollflags_checkbox_exitUntilCollapsed">exitUntilCollapsed</string>
+    <string name="scrollflags_checkbox_enterAlways">enterAlways</string>
+    <string name="scrollflags_checkbox_enterAlwaysCollapsed">enterAlwaysCollapsed</string>
+
+</resources>
