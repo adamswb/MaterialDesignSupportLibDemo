@@ -1,6 +1,6 @@
 # MaterialDesignSupportLibDemo
 
-Demo App using the features of the Design Support Library announced at:
+Android Demo App using the features of Google's Design Support Library announced at:
 <br>http://android-developers.blogspot.nl/2015/05/android-design-support-library.html 
 
 <img src="https://github.com/luizgrp/MaterialDesignSupportLibDemo/blob/master/screenshots/sc1.png" width="300" height="533" >
